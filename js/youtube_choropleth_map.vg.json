@@ -19,12 +19,12 @@
           "fields": ["Subs"]
         }
       },
-      {"calculate": "datum.Subs + 0.1", "as": "Subs2"}
+      {"calculate": "datum.Subs + 0.1", "as": "Subscribers"}
     ],
     "mark": {"type": "geoshape"},
     "encoding": {
       "color": {
-        "field": "Subs2",
+        "field": "Subscribers",
         "type": "quantitative",
         "scale": {"type": "log"}
       },
